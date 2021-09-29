@@ -157,7 +157,7 @@ if __name__ == '__main__':
         
         SNR_list = [-5, 0, 5, 10, 15, 20]    
         for SNR in SNR_list:
-            pdb.set_trace()
+
             # 4. mix noise
             _, mix_wav = data_augment_onthefly(src = clean_path, noise_paths = noise_paths, SNR = SNR)
 
